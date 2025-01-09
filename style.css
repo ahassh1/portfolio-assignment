@@ -24,7 +24,7 @@
 }
 .container{
     width: 100%; 
-    height: 90vh;
+    height: 81vh;
      border: 1px solid gray;
      background-repeat: no-repeat;
      background-size: cover;
@@ -32,22 +32,34 @@
      background-image: url("./assets/Hero-bg.png");
 }
 .container .banner_main_content{
+  
    margin: 0 auto;
-   padding: 70px 300px;
-   /* text-align: center;
-   justify-content: center; */
-   display: flex;
+   text-align: center;
+   /* padding: 70px 300px; */
+
+    /* text-align: center;
+   justify-content: center; 
+   display: flex; */
 
 }
 
 .banner_img{
-    width: 230px;
+    padding-top: 30px;
+}
+
+content .banner_img{
+    width: 330px;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+   
 }
 
 .banner_heading{
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: bolder;
+    padding: 14px 0;
 }
 
 .banner_content{
@@ -58,7 +70,60 @@
       border: 1px solid rgb(255, 255, 255);
       background-color: rgb(0, 0, 0);
       color: aliceblue;
+      margin: 15px 0;
 }
+
+.web .web_heading{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.web_pra{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.web{
+    /* justify-content: center;
+    align-items: center; */
+    margin: 30px auto;
+    
+    text-align: center;
+}
+
+.code{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .code_item{
+    text-align: center;
+    margin-top: 0 auto;
+} */
+ .code_head{
+    margin-top: 40px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+ }
+
+ .code_pra{
+    margin-top: 10px;
+    font-size: 13px;
+ }
+ .code_btn{
+    padding: 8px 15px;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: rgba(250, 235, 215, 0.811);
+    color: black;
+
+ }
+
+
+
+
 
 
 
