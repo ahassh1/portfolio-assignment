@@ -129,10 +129,15 @@ content .banner_img{
 }
 .target_container{
  
-    /* display: flex;
-    justify-content: space-around; */
-    margin: 0 auto;
-    text-align: center;
+     display: flex; 
+    justify-content:space-around;  
+    /* gap: 60px; */
+    align-items: center;
+    /* margin: 0 auto; */
+    text-align: left; 
+    margin-top: 30px;
+    margin-left: 50px;
+    
 }
 .target_head{
     margin: 15px 0;
