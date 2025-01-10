@@ -101,25 +101,48 @@ content .banner_img{
     text-align: center;
     margin-top: 0 auto;
 } */
- .code_head{
-    margin-top: 40px ;
+ .code_head, .skill_head .target_head{
+    margin-top: 50px ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     font-size: 34px;
  }
 
- .code_pra{
+ .code_pra, .skill_pera .target_pra{
     margin-top: 10px;
     font-size: 13px;
  }
- .code_btn{
+ .code_btn, .skill_btn{
     padding: 8px 15px;
     border: 1px solid black;
-    margin-top: 10px;
+    margin-top: 15px ;
     background-color: rgba(250, 235, 215, 0.811);
     color: black;
 
  }
+ .skill{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 18px 0;
+    /* align-items: center; */
+}
+.target_container{
+ 
+    /* display: flex;
+    justify-content: space-around; */
+    margin: 0 auto;
+    text-align: center;
+}
+.target_head{
+    margin: 15px 0;
+}
+.target_pra{
+    margin-bottom: 15px;
+}
+.target_img{
+    margin-top: 20px;
+}
 
 
 
