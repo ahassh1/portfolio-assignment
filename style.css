@@ -143,6 +143,61 @@ content .banner_img{
 .target_img{
     margin-top: 20px;
 }
+.support{
+    background-image: url("./assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position :center;
+    height: 300px;
+     width:100%;
+    /* height:40vh  */
+    /* padding: 20px 0; */
+    /* display: flex; */
+    /* margin: 0 auto; */
+    margin-top: 30px;
+}
+.footer_head, .footer_pra{
+    color: rgba(245, 245, 245, 0.952);
+}
+.footer_main{
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.footer_head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    /* line-height: 1%; */
+
+}
+.footer_pra{
+    font-size: 11px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input, .footer_btn{
+    padding: 10px 19px;
+    border-radius: 6px;
+    border: 1px solid rgb(147, 92, 198);
+    margin-top: 10px;
+    box-shadow: 2 px ;
+}
+
+.foot_content{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+}
+.last_footer_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 
 
